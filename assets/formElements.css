@@ -3,16 +3,17 @@ body {
     padding: 0;
 }
 
-.radios input, .checks input {
+.radios input, .checks input, .selects select {
     display: none;
 }
 
-.check_on {
+.check_on, .check_off {
     padding: 0 0 0 25px;
+    cursor: pointer;
 }
 
-.check_off {
-    padding: 0 0 0 25px;
+.check_on label, .check_off label {
+    cursor: pointer;
 }
 
 .radios .check_on {
@@ -33,4 +34,25 @@ body {
 .checks .check_off {
     display: inline-block;
     background: url('check_off.png') no-repeat;
+}
+
+.selected-index-wrap {
+    cursor: pointer;
+    width: 150px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.select-options-wrap {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 0;
+    width: 150px;
+    overflow: hidden;
+}
+
+.select-options-wrap li:hover {
+    background: #5a8ea6;
 }

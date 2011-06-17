@@ -5,7 +5,9 @@
 		<script type="text/javascript" src="assets/jquery.formElements.js"></script>
 	</head>
 	<body>
-		<form action="" method="get">
+        <h1>jQuery Form Elements Demo</h1>
+        <h2>Registration form</h2>
+		<form action="" method="post">
             <div class="radios">
                 <label>You are a</label>
                 <span>
@@ -31,6 +33,21 @@
                     <input type="checkbox" name="likes" value="2" />
                     <label>Animals</label>
                 </span>
+            </div>
+            <div class="selects">
+                <label>and was born in</label>
+                <select name="birthday">
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                    <option value="1990">1990</option>
+                    <option value="before 1990">before 1990...</option>
+                </select>
+            </div>
+            <div class="submit">
+                <button type="submit">Come in</button>
             </div>
         </form>
 	</body>
