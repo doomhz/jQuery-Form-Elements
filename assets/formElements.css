@@ -7,18 +7,30 @@ body {
     display: none;
 }
 
+.check_on {
+    padding: 0 0 0 25px;
+}
+
+.check_off {
+    padding: 0 0 0 25px;
+}
+
 .radios .check_on {
-    background: url('radio_on.png') no-repeat left left;
+    display: inline-block;
+    background: url('radio_on.png') no-repeat;
 }
 
 .radios .check_off {
-    background: url('radio_off.png') no-repeat left left;
+    display: inline-block;
+    background: url('radio_off.png') no-repeat;
 }
 
 .checks .check_on {
-    background: url('check_on.png') no-repeat left left;
+    display: inline-block;
+    background: url('check_on.png') no-repeat;
 }
 
 .checks .check_off {
-    background: url('check_off.png') no-repeat left left;
+    display: inline-block;
+    background: url('check_off.png') no-repeat;
 }
