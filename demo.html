@@ -1,0 +1,41 @@
+<html>
+    <head>
+		<link href="assets/formElements.css" media="all" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/jquery.formElements.js"></script>
+	</head>
+	<body>
+		<form action="" method="get">
+            <div class="radios">
+                <label>You are a</label>
+                <span>
+                    <input type="radio" name="gender" value="0" />
+                    <label>Guy</label>
+                </span>
+                <span>
+                    <input type="radio" name="gender" value="1" />
+                    <label>Chick</label>
+                </span>
+            </div>
+            <div class="checks">
+                <label>who likes</label>
+                <span>
+                    <input type="checkbox" name="likes" value="0" />
+                    <label>Guys</label>
+                </span>
+                <span>
+                    <input type="checkbox" name="likes" value="1" />
+                    <label>Chicks</label>
+                </span>
+                <span>
+                    <input type="checkbox" name="likes" value="2" />
+                    <label>Animals</label>
+                </span>
+            </div>
+        </form>
+	</body>
+
+	<script type="text/javascript">
+		$('form').formElements();
+	</script>
+</html>

@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.radios input, .checks input {
+    display: none;
+}
+
+.radios .check_on {
+    background: url('radio_on.png') no-repeat left left;
+}
+
+.radios .check_off {
+    background: url('radio_off.png') no-repeat left left;
+}
+
+.checks .check_on {
+    background: url('check_on.png') no-repeat left left;
+}
+
+.checks .check_off {
+    background: url('check_off.png') no-repeat left left;
+}
